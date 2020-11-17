@@ -1,4 +1,5 @@
-public class FlyBehavior {
+public interface FlyBehavior {
+    public void fly();
     // public class FlyWithWings {
     //     public void fly() {
     //         System.out.println("I'm flying with wings!");

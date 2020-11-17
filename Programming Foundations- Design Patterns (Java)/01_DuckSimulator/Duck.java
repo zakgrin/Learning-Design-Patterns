@@ -1,22 +1,22 @@
-public class Duck {
+public abstract class Duck {
     
     // Properties: 
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
     // Abstract: must be defined for subclasses
-    abstract void display(); 
-    
+    abstract void display();
+
     // Constructor: 
     public Duck() {
     }
     
     // Methods: 
     public void setFlyBehavior() {
-
+        
     }
     public void setQuackBehavior() {
-        
+
     }
     public void performFly() {
         flyBehavior.fly();
