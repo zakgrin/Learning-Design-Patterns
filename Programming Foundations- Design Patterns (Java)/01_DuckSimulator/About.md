@@ -1,3 +1,5 @@
+(Source: LinkedIn Learning Course of Programming Foundations- Design Patterns)
+
 # About The Strategy Pattern
 
 In this exercise, we use a pattern design by following the logic of "separate with varies". This strategy is called __The Strategy Pattern__. Here we follow the design principle "program for interface not for implementation".
