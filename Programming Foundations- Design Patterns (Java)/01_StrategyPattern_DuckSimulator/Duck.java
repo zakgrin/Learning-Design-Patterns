@@ -12,11 +12,12 @@ public abstract class Duck {
     }
     
     // Methods: 
-    public void setFlyBehavior() {
+    public void setFlyBehavior(FlyBehavior selectedFlyBehavior) {
+        // this.flyBehavior = new selectedFlyBehavior();
         
     }
-    public void setQuackBehavior() {
-
+    public void setQuackBehavior(QuackBehavior selectedQuackBehavior) {
+        // this.quackBehavior = new selectedQuackBehavior();
     }
     public void performFly() {
         flyBehavior.fly();
