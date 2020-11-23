@@ -1,15 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        PhoneCameraApp basicCameraApp = new BasicCameraApp();
+        PhoneCameraApp basicCameraApp = new BasicCameraApp("Text"); // Default is Email
         basicCameraApp.take();
         basicCameraApp.save();
         basicCameraApp.edit();
-        basicCameraApp.shareIt();
+        basicCameraApp.share();
+        basicCameraApp.setShareMethod("Email");
+        basicCameraApp.share();
 
-        PhoneCameraApp plusCameraApp = new PlusCameraApp();
+        PhoneCameraApp plusCameraApp = new PlusCameraApp("Email"); // Default is Text
         plusCameraApp.take();
         plusCameraApp.save();
         plusCameraApp.edit();
-        plusCameraApp.shareIt();
+        plusCameraApp.share();
+        plusCameraApp.setShareMethod("Text");
+        plusCameraApp.share();
     }
 }
