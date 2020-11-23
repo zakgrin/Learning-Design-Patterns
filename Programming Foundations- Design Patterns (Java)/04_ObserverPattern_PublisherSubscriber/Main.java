@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
+
+        /**
+         * Observer Pattern is used to make subject and observer: 
+         * - loosely coupled.
+         * - interact with little knowledge of each other.
+        */
+        
         Subject myPublisher = new Publisher();
         Observer subscriber1 = new Subscriber(myPublisher); // registered!
         Observer subscriber2 = new Subscriber(myPublisher); // registered!
