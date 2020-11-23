@@ -18,4 +18,7 @@ public abstract class PhoneCameraApp {
         else
             System.out.println("Please choose a sharing method: 'Email', 'Text'");
     }
+    public void setShareMethod(ShareMethod shareMethod) {
+        this.shareMethod = shareMethod;
+    }
 }
