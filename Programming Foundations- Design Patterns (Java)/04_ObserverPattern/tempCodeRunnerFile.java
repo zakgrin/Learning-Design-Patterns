@@ -1,0 +1,1 @@
+ver subscriber1 = new Subscriber(myPublisher);
